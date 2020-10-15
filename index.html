@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+    var num = 0;
+    var color = 0;
+
+    function addOne() {
+        num++;
+        document.getElementById("demo").innerHTML = `Test ${num}`;
+    }
+</script>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link type="text/javascript" href="index.js">
+    <title>Meme Database</title>
+</head>
+
+<body id="bdy">
+
+    <p id="demo" class="info">Test</p>
+    <button onclick="addOne()" type="button" name="button" title="num++">Add 1</button>
+
+</body>
+
+</html>
